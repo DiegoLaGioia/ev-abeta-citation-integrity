@@ -24,7 +24,7 @@ Un nodo verificato end-to-end: **microglia omeostatica (clearance) vs. MGnD/neur
 [6] Output auditabile        → mappa claim→cit→fonte→verdict→provenance
 ```
 
-**Stato attuale:** scaffolding per gli stadi 1–2 (`src/europepmc/`, `src/extract/`). Stadi 3–6 non ancora implementati.
+**Stato attuale:** Stadio 2 funzionante. Su un corpus di 12 paper open-access (asse biogenesi EV → Aβ/tau), la pipeline estrae 1065 coppie claim-citazione dal full-text JATS, con risoluzione a DOI/PMID del 100% su formati di editori eterogenei. Primo risultato: l'anchor dominante del campo (Asai 2015, uno studio su *tau*) è citato da 11/11 paper citanti — anche per claim su *Aβ* — mentre gli anchor della posizione opposta (Yuyama, Dinkins) sopravvivono a 2 citazioni ciascuno, in gran parte per autocitazione. Stadi 1 e 3–6 in sviluppo.
 
 ## Struttura
 
